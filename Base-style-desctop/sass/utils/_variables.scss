@@ -1,0 +1,29 @@
+/* Текст */
+
+/* #212121  - колір основного тексту*/
+/* #757575  - колір другорядного тексту */
+/* #2196F3  - колір оформлення (акцент) (синій колір) */
+/* #FFFFFF, 60 % - колір тексту в футері + прозорість */
+/* #FFFFFF  - основний білий колір */
+
+/* Кольори фону */
+
+/*  #FFFFFF  - колір навігації*/
+/* #E5E5E5   - основний фон */
+/* #F5F4FA   - другий фон */
+/* #2F303A   - колір футеру та  hero  */
+
+$ptimary-text-color: #212121;
+$secondary-text-color: #757575;
+$accent-color: #2196f3;
+$secondary-text-color-plus: rgba(255, 255, 255, 0.6);
+$white-color: #ffffff;
+$our-team-backgroud-color: #f5f4fa;
+
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--ptimary-text-color);
+  background-color: var(--white-color);
+  margin: 0;
+}
